@@ -1,0 +1,26 @@
+{
+  "name": "ie8-js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seeliang/ie8-js",
+  "authors": [
+    "foundation forum"
+  ],
+  "description": "ie8 fix for css issues",
+  "main": "require-set.js",
+  "keywords": [
+    "ie8",
+    "javascrit",
+    "fix"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15"
+  }
+}
