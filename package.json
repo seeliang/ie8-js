@@ -1,0 +1,28 @@
+{
+  "name": "ie8-js",
+  "version": "0.1.0",
+  "description": "js for fix foundaiton-freamwork (and common) ie8 css3 support issues ",
+  "main": "require-set.js",
+  "dependencies": {
+    "bower": "~1.3.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seeliang/ie8-js.git"
+  },
+  "keywords": [
+    "ie8",
+    "js",
+    "fix"
+  ],
+  "author": "foundation forum / edited by sihui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seeliang/ie8-js/issues"
+  },
+  "homepage": "https://github.com/seeliang/ie8-js"
+}
