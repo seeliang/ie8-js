@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "requirejs": "~2.1.15"
+  	"selectivizr": "git@github.com:keithclark/selectivizr.git",
+  	"rem": "git@github.com:chuckcarpenter/REM-unit-polyfill.git"
   }
 }
