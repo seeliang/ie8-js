@@ -2,9 +2,13 @@
   "name": "ie8-js",
   "version": "0.1.0",
   "description": "js for fix foundaiton-freamwork (and common) ie8 css3 support issues ",
-  "main": "require-set.js",
+  "main": "ie8-js.js",
   "dependencies": {
-    "bower": "~1.3.12"
+    "bower": "~1.3.12",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10",
+    "nwmatcher": "^1.3.4",
+    "html5shiv": "^3.7.2"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,6 +20,7 @@
   },
   "keywords": [
     "ie8",
+    "css3",
     "js",
     "fix"
   ],
