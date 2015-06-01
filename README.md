@@ -1,22 +1,26 @@
 ie8-js
-======
-more info
-
-http://foundation.zurb.com/forum/posts/241-foundation-5-and-ie8
-
+====
 ie8 js fix for foundation framework and common ie8 css issues 
 
-# How to use
-*ie8-js.js is the main file 
-*use ie8-js-html5shiv.js if you are not using modernizr
-*add respond.js if you have a responsive website
+based on
+http://foundation.zurb.com/forum/posts/241-foundation-5-and-ie8
 
-See sample.html
+# Includes
+* [REM.js](https://github.com/chuckcarpenter/REM-unit-polyfill)
+* [nwmatcher](https://github.com/dperini/nwmatcher)
+* [selectivizr](https://github.com/keithclark/selectivizr)
+* ie8-js-html5shiv.js with [html5shiv](https://github.com/afarkas/html5shiv)
+
+# How to use
+* ie8-js.js is the main file 
+* use ie8-js-html5shiv.js if you are not using [modernizr](https://github.com/Modernizr/Modernizr)
+* there is compile conflict of [selectivizr](https://github.com/keithclark/selectivizr) and [respond](https://github.com/scottjehl/Respond)  **See Limitation**, so you will need [respond](https://github.com/scottjehl/Respond) if you have responsive css3 code
+
+See [sample.html](https://github.com/seeliang/ie8-js/blob/master/sample.html), **if lt ie 9** section
 
 # Install
 bower install git@github.com:seeliang/ie8-js.git
 
 # Limitation 
-*there is a conflic of compile seletivizr.js and respond.js with webpack
-*it's for ie8 only ie8 ie8 compatibility mode will NOT work
-
+* there is a conflict of compile seletivizr.js and respond.js with webpack in one file
+* it's for ie8 only, ie8 compatibility mode will NOT work
