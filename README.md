@@ -19,7 +19,7 @@ http://foundation.zurb.com/forum/posts/241-foundation-5-and-ie8
 See [sample.html](https://github.com/seeliang/ie8-js/blob/master/sample.html), **if lt ie 9** section
 
 # Install
-bower install git@github.com:seeliang/ie8-js.git
+npm install ie8-js
 
 # Limitation 
 * there is a conflict of compile seletivizr.js and respond.js with webpack in one file
