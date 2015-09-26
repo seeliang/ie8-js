@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "homepage": "https://github.com/seeliang/ie8-js",
   "authors": [
-    "foundation forum"
+    "sihui.liang/ based on foundation forum post"
   ],
   "description": "ie8 fix for css issues",
-  "main": "require-set.js",
+  "main": "build/ie8-js.js",
   "keywords": [
     "ie8",
     "javascrit",
