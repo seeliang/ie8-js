@@ -1,15 +1,15 @@
 var webpack = require("webpack"),
 	path = require("path"),
 	ResolverPlugin = require('webpack/lib/ResolverPlugin');
-	
+
 module.exports = {
   entry: {
   	js: './js/src/js.js',
   	'js-html5shiv': './js/src/js-html5shiv.js'
   },
   output: {
-  	path: './js/build',
-    filename: 'ie8-[name].js'       
+  	path: './build',
+    filename: 'ie8-[name].js'
   },
   resolve: {
     modulesDirectories: ['node_modules', 'bower_components'],
