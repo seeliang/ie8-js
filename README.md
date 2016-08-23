@@ -1,5 +1,8 @@
 ie8-js
 ====
+
+* Discontinued / finally, not ie8 
+
 ie8 js fix for foundation framework and common ie8 css issues
 
 based on
