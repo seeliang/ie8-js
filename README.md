@@ -1,7 +1,7 @@
 ie8-js
 ====
 
-* Discontinued / finally, not ie8 
+* Discontinued / finally, bye ie8, thank you for the ride 
 
 ie8 js fix for foundation framework and common ie8 css issues
 
